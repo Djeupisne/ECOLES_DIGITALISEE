@@ -1,0 +1,10 @@
+ALTER TABLE students 
+ADD COLUMN gender VARCHAR(10),
+ADD COLUMN address VARCHAR(255),
+ADD COLUMN phone VARCHAR(20),
+ADD COLUMN email VARCHAR(100),
+ADD COLUMN nationality VARCHAR(50),
+ADD COLUMN previous_school VARCHAR(100),
+ADD COLUMN medical_info TEXT,
+ADD COLUMN emergency_contact VARCHAR(100),
+ADD COLUMN emergency_phone VARCHAR(20);

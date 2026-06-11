@@ -1,0 +1,14 @@
+package com.school.dto.response;
+
+import com.school.model.enums.Role;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class AuthResponse {
+    private String token;
+    private String tokenType = "Bearer";
+    private String username;
+    private Role role;
+}

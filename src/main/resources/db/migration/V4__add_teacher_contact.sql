@@ -1,0 +1,3 @@
+ALTER TABLE teachers 
+ADD COLUMN email VARCHAR(100),
+ADD COLUMN phone VARCHAR(20);
